@@ -62,6 +62,7 @@ class Login : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // code to navigate to main activity after sign up
                     val intent = Intent(this@Login, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
 
 
